@@ -11,6 +11,12 @@ function logObjectProperties(obj) {
 	
 	};
 	logObjectProperties(car);
+
+	console.log(" ");
+	const {make, year} = car;
+		console.log(make);
+		console.log(year);
+
 	
 
 
