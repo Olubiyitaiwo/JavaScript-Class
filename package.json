@@ -1,0 +1,23 @@
+{
+  "name": "javascript-class",
+  "version": "1.0.0",
+  "main": "doubleOfSum.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Olubiyitaiwo/JavaScript-Class.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Olubiyitaiwo/JavaScript-Class/issues"
+  },
+  "homepage": "https://github.com/Olubiyitaiwo/JavaScript-Class#readme",
+  "dependencies": {
+    "jest": "^29.7.0"
+  },
+  "devDependencies": {},
+  "description": ""
+}
