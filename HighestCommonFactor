@@ -1,0 +1,10 @@
+const divideThreeNumbers = (numbers)=>{
+            let answer = []
+            let answer2 = []
+            for(element in numbers)
+                if(element / 2== answer)
+                    for(newElement in answer)
+                        if(newElement / 2 == answer2)
+                                return [answer, answer2]
+
+}

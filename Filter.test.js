@@ -1,4 +1,4 @@
-const {getOddNumbers, getStudents, isScores,addPointToExam} = require("./Filter");
+const {getOddNumbers, getStudents, isScores,addPointToExam, findSquareOfAList} = require("./Filter");
 
 beforeEach(()=>(
     numbers = [2,3,4,5,6,7]
@@ -41,5 +41,12 @@ test("Add points to exams", ()=>{
     const score = [85,92,78,88,95]
     let result = addPointToExam(score)
     let answer = [90,97,83,93,100]
+    expect(result).toEqual(answer)
+})
+
+test("Find square of a list", ()=>{
+    const integers = [2,4,6,8,10]
+    let result = findSquareOfAList(integers)
+    let answer = [4,16,36,64,100]
     expect(result).toEqual(answer)
 })
